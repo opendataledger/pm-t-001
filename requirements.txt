@@ -3,9 +3,3 @@ streamlit
 pandas
 python-docx==0.8.11
 altair
-#
-openai==0.27.0
-requests==2.28.1
-pyttsx3==2.90
-pydub==0.25.1
-numpy==1.23.4      # For general array handling (optional, depends on use)
