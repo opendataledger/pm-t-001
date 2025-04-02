@@ -4,3 +4,5 @@ pandas
 python-docx==0.8.11
 altair
 #numpy==1.23.4      # For general array handling (optional, depends on use)
+openai==0.27.0
+requests==2.28.1
