@@ -17,7 +17,7 @@ def get_current_page_name():
 
 def make_sidebar():
     with st.sidebar:
-        st.title("⚡ Cheatham Speller β")
+        st.title("⚡ PM β")
         st.write("")
         st.write("")
 
@@ -34,10 +34,10 @@ def make_sidebar():
             if st.button("Log out"):
                 logout()
 
-        elif get_current_page_name() != "app-000":
+        elif get_current_page_name() != "streamlit_app":
             # If anyone tries to access a secret page without being logged in,
             # redirect them to the login page
-            st.switch_page("app-000.py")
+            st.switch_page("streamlit_app.py")
 
 # BELOW ADD
 
@@ -68,4 +68,4 @@ def logout():
     st.session_state.logged_in = False
     st.info("✔️Logged out successfully!")
     sleep(0.5)
-    st.switch_page("app-000.py")
+    st.switch_page("streamlit_app.py")
