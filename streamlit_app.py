@@ -8,7 +8,7 @@ check_user_inactivity()
 # Add sidebar
 make_sidebar()
 
-st.title("Welcome to PM Beta Test")
+st.title("Welcome to PM β Test")
 
 # Inject JavaScript to focus the input field on the page load globally
 st.components.v1.html("""
